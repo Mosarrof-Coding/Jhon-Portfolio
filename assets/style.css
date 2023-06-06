@@ -18,6 +18,9 @@ a{
     --white-color: #fff;
     --dark-color: #000;
 }
+html{
+    font-size: 62.5%;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -28,11 +31,11 @@ body{
 .cmnBtn{
     display: inline-block;
     text-transform: capitalize;
-    padding: 9px 20px;
+    padding: .9rem 2rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #FFFFFF;
     background: var(--secondary-color);
     border-radius: 6px;
@@ -54,13 +57,13 @@ header{
 .logo{
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 3.6rem;
     text-align: center;
     color: #21243D;
     text-transform: capitalize;
 }
 nav{
-    padding:30px 0
+    padding:3rem 0;
 }
 nav ul{
     display: flex;
@@ -70,97 +73,97 @@ li a{
     text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2.0rem;
     color: #000000;
 }
 .navBtn{
     display: inline-block;
-    padding: 10px 31.5px;
+    padding: 1rem 3rem;
     text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #ffffff;
     background-color: #000;
     border-radius: 6px;
 }
-
-/* about-- */
-.about{
-    padding: 120px 0 125px 0;
+/* hero section-- */
+.hero{
+    padding: 12rem 0 12.25rem 0;
 }
-.about-wrapper{
+.hero-wrapper{
     text-align: center;
 }
 .img{
-    padding-bottom: 32px;
+    padding-bottom: 3.2rem;
 }
-.about-heading{
-    max-width: 504px;
-    margin: auto;
+.hero-heading{
+    text-align: center;
 }
-.about-heading h1{
+.hero-heading h1{
     font-style: normal;
     font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 4.4rem;
+    line-height: 1.5;
     text-align: center;
     color: var(--primary-color);
 }
-.about-heading h1 span{
+.hero-heading h1 span{
     color:var(--secondary-color);
 }
-.about-heading p{
+.hero-heading p{
+    margin: auto;
+    max-width: 520px;
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 32px;
+    font-size: 1.9rem;
+    line-height: 1.5;
     color: #777777;
-    padding: 40px 0;
+    padding: 4rem 0;
 }
-/* about2-- */
-.about2{
+/* about section-- */
+.about{
     background-color: #FCFCFC;
 }
-.about2-wrapper{
+.about-wrapper{
     display: flex;
     align-items: center;
 }
-.about2-wrapper > *{
+.about-wrapper > *{
     flex-basis: 100%;
 }
 .about-text h1{
     font-style: normal;
     font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 4.4rem;
+    line-height: 1.5;
     color: var(--primary-color);
 }
 .about-text h1 span{
     color:var(--secondary-color);
 }
 .about-text p{
-    padding: 27px 0;
+    padding: 2.7rem 0;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 159%;
+    font-size: 1.8rem;
+    line-height: 1.59;
     text-align: justify;
     color: #535353;
 }
-/* service-- */
+/* service section-- */
 .service{
-    padding:88px 0 140px 0;
+    padding:8.8rem 0 14rem 0;
 }
 .service h1{
     font-style: normal;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 4.4rem;
+    line-height: 1.5;
     color: var(--dark-color);
-    padding-bottom: 52px;
+    padding-bottom: 5.2rem;
     text-align: center;
 }
 .service h1 span{
@@ -169,21 +172,21 @@ li a{
 .service .service-wrapper{
     display: flex;
     justify-content: space-between;
-    gap:23px;
+    gap:2.3rem;
 }
 .service .service-wrapper > *{
     flex-basis: 100%;
 }
 .service .service-wrapper .service-item .serviceTxt{
-    padding: 34px 0;
+    padding: 2rem 0;
 }
 .service .service-wrapper .service-item .serviceTxt p{
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #21243D;
-    padding-top: 9px;
+    padding-top: .9rem;
 }
 .service .service-wrapper .service-item img{
     width: 100% !important;
@@ -192,71 +195,69 @@ li a{
     font-style: normal;
     text-transform: capitalize;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     text-decoration-line: underline;
     color: #878CFF;
 }
-
 /* insights-- */
 .insights{
-padding-bottom: 104px;
+padding-bottom: 1.04rem;
 }
 .insights .insights-heading h1{
     font-style: normal;
     text-transform: capitalize;
     font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 4.4rem;
+    line-height: 1.5;
     color: var(--secondary-color);
-    padding-bottom: 47px;
+    padding-bottom: 4.7rem;
     display: inline-block;
 }
 .insight-sibling-wrapper{
     display: flex;
-    gap:26px;
+    gap:2.6rem;
 }
-.insight-sibling-wrapper{
+.insight-sibling-wrapper > *{
     flex-basis: 100%;
 }
 .insight-item{
     background-color: #FFFFFF;
     border: 1px solid #E2E2E2;
     border-radius: 4px;
-    padding: 37px 30px 47px;
+    padding: 3.7rem 3rem 4.7rem;
 }
 .insight-item h4{
     text-transform: capitalize;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 1.5;
     color: #777777;
-    padding-bottom: 12px;
+    padding-bottom: 1.2rem;
 }
 .insight-item h3{
     max-width: 70%;
     text-transform: capitalize;
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 39px;
+    font-size: 2.6rem;
+    line-height: 1.3;
     color: #21243D;
 }
 .insight-item p{
     text-transform: capitalize;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 1.5;
     text-align: justify;
     color: #6F6F6F;
     padding: 27px 0 24px 0;
 }
-
 /* footer-- */
 footer{
-    padding: 51px 0 54px 0;
+    padding: 5rem 0 5.4rem 0;
     background: #1E1E1E;
 }
 .footer-wrapper{
@@ -266,14 +267,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:23px;
+    gap:2.23rem;
 
 }
 .footer-wrapper .footer-icon i{
-    font-size: 20px;
+    font-size: 2rem;
     color:var(--white-color);
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     display: grid;
     place-items: center;
     border: 1px solid var(--white-color);
@@ -282,10 +283,82 @@ footer{
     text-transform: capitalize;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 1.4rem;
+    line-height: 1.5;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 20px;
-    
+    padding-top: 2rem;
+}
+/* ========Responsive================================ */
+@media (max-width:1320px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+@media (max-width:1200px) {
+    html{
+        font-size: 56%;
+    }
+    .container{
+        padding:0 20px;
+    }
+}
+@media (max-width:992px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
+@media (max-width:576px) {
+    html{
+        font-size: 40%;
+    }
+    /* header------- */
+    header{
+    margin-top: 20px;
+    }
+    .header-wrapper{
+        flex-direction: column;
+    }
+    /* about---------- */
+    .about-wrapper{
+        flex-direction: column;
+    }
+    /* service--------- */
+    .service .service-wrapper{
+        flex-direction: column;
+    }
+    /* inssights------- */
+    .insight-sibling-wrapper{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:400px) {
+    html{
+        font-size: 31.5%;
+    }
+    /* header------- */
+    header{
+    margin-top: 20px;
+    }
+    .header-wrapper{
+        flex-direction: column;
+    }
+    /* about---------- */
+    .about-wrapper{
+        flex-direction: column;
+    }
+    /* service--------- */
+    .service .service-wrapper{
+        flex-direction: column;
+    }
+    /* inssights------- */
+    .insight-sibling-wrapper{
+        flex-direction: column;
+    }
 }
